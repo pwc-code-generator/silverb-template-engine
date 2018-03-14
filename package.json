@@ -1,0 +1,32 @@
+{
+  "name": "silverb",
+  "version": "0.0.1",
+  "description": "SilverB Code Template Engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pwc-code-generator/silverb-template-engine.git"
+  },
+  "keywords": [
+    "template",
+    "template",
+    "engine",
+    "code",
+    "template",
+    "code",
+    "template",
+    "engine"
+  ],
+  "author": "Tiago Silva Pereira Rodrigues",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pwc-code-generator/silverb-template-engine/issues"
+  },
+  "homepage": "https://github.com/pwc-code-generator/silverb-template-engine#readme",
+  "dependencies": {
+    "syntax-error": "^1.4.0"
+  }
+}
