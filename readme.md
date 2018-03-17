@@ -144,5 +144,7 @@ Something here...
 
 We have a simple SilverB Syntax Highlighter for VSCode [here](https://github.com/TiagoSilvaPereira/silverb_syntax_vscode). If you want, you can create a syntax highlighter for your preferred editor and add on this Readme.
 
+The syntax highlighter will work on files with **.silverb** extension.
+
 ## License
 MIT

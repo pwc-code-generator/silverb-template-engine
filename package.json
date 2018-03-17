@@ -1,7 +1,7 @@
 {
   "name": "silverb",
   "version": "0.0.1",
-  "description": "SilverB Code Template Engine",
+  "description": "SilverB Code and Text Template Engine",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,13 +12,9 @@
   },
   "keywords": [
     "template",
-    "template",
     "engine",
     "code",
-    "template",
-    "code",
-    "template",
-    "engine"
+    "text"
   ],
   "author": "Tiago Silva Pereira Rodrigues",
   "license": "MIT",
