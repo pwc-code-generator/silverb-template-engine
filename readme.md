@@ -76,7 +76,7 @@ I created these projects:
     - Stop It
 ```
 
-See this exemple running [here](https://runkit.com/embed/rg5rwen7nmdt).
+See this example running [here](https://runkit.com/embed/rg5rwen7nmdt).
 
 ## Tags
 
