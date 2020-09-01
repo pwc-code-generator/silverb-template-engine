@@ -1,10 +1,10 @@
 {
   "name": "silverb",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "SilverB Code and Text Template Engine",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,8 @@
   "homepage": "https://github.com/pwc-code-generator/silverb-template-engine#readme",
   "dependencies": {
     "syntax-error": "^1.4.0"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
   }
 }

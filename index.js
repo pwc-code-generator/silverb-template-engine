@@ -59,7 +59,7 @@ class Template {
     }
 
     compile(data) {
-        this.generatedCode();
+        this.generateCode();
         
         return new Function(this.generatedCode).apply(data);
     }
@@ -77,7 +77,7 @@ class Template {
     }
 
     getGeneratedCode() {
-        this.generatedCode();
+        this.generateCode();
 
         return this.generatedCode;
     }
