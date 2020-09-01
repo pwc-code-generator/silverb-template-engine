@@ -31,4 +31,5 @@ test('renders a simple template', () => {
     expect(result.includes(`<$ this.name $>`)).toBe(false)
     expect(result.includes(`<% for (let project of this.projects) { %>`)).toBe(false)
     expect(result.includes(`<% } %>`)).toBe(false)
+    expect(result.includes(`Some other thing`)).toBe(false)
 })
