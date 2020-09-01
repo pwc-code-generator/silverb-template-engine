@@ -59,6 +59,12 @@ class Template {
     }
 
     compile(data) {
+        this.generatedCode();
+        
+        return new Function(this.generatedCode).apply(data);
+    }
+
+    generateCode() {
         this.resetTemplate();
         this.treatTemplateCode();
         this.separateTextFromCodeBlocks();
@@ -68,8 +74,12 @@ class Template {
         });
         
         this.finishGeneratedCode();
-        
-        return new Function(this.generatedCode).apply(data);
+    }
+
+    getGeneratedCode() {
+        this.generatedCode();
+
+        return this.generatedCode;
     }
 
     addHelperFunctions() {
