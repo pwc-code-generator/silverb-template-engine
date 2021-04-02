@@ -1,6 +1,6 @@
 {
   "name": "silverb",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "SilverB Code and Text Template Engine",
   "main": "index.js",
   "scripts": {
